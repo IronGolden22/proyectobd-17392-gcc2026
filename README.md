@@ -6,6 +6,7 @@ Proyecto full-stack para la asignatura de Sistemas de Bases de Datos en la Unive
 
 - **Backend**: Java + Spring Boot (Spring Web, Spring Data JPA, Validation, PostgreSQL Driver) en [`backend/`](./backend)
 - **Frontend**: Angular (HTML, CSS, TypeScript / JavaScript) en [`frontend/`](./frontend)
+- **Base de Datos**: PostgreSQL (scripts SQL y configuración Docker Compose) en [`database/`](./database)
 
 ## Estructura del Repositorio
 
@@ -13,13 +14,17 @@ Proyecto full-stack para la asignatura de Sistemas de Bases de Datos en la Unive
 proyectobd-17392-gcc2026/
 ├── backend/       # API REST con Java y Spring Boot (Maven)
 ├── frontend/      # Aplicación web con Angular
+├── database/      # Scripts DDL/DML e inicialización de PostgreSQL
+├── docker-compose.yml # Servicio de PostgreSQL listo para levantar
+├── .env.example   # Variables de entorno de conexión
 ├── .gitignore
 └── README.md
 ```
 
 ## Requisitos Previos
 
-- **Backend**: JDK 17 o superior (para ejecutar el wrapper de Maven `./mvnw` / `mvnw.cmd`) y una instancia de base de datos (por ejemplo PostgreSQL).
+- **Base de Datos**: PostgreSQL (instalado localmente o vía Docker con `docker compose up -d`).
+- **Backend**: JDK 17 o superior (para ejecutar el wrapper de Maven `./mvnw` / `mvnw.cmd`).
 - **Frontend**: Node.js (LTS) y npm.
 
 ## Ejecución Rápida

@@ -1,6 +1,6 @@
 # Proyecto de Bases de Datos (`proyectobd-17392-gcc2026`)
 
-Proyecto full-stack para la asignatura de Bases de Datos.
+Proyecto full-stack para la asignatura de Sistemas de Bases de Datos en la Universidad Catolica Andres Bello. Curso dictado por la profesora Marlene Goncalves
 
 ## Stack Tecnológico
 
